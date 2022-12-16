@@ -19,7 +19,9 @@
  
 
 # 2nd Deliverable
-
+Για το π΄ρωτο ζητούμενο αφού μελέτησα το παράδειγμα "Example 16-12" από το βιβλίο Learning Processing, 2nd Edition, πρόσθεσα στον κώδικα το PImage backgroundReplace; και έθεσα σε αυτο το βίντεο για να κάνει το replace. Όσον αφορά το δεύτερο ζητούμενο συμβυλευόμενη α παραδείγματα "Example 16-11 και το Example 16-13" από το βιβλίο Learning Processing, 2nd Edition, έκαν ατην άσκηση Exercise 16-7 στην οποία ουσιαστικά άλλαξα το σχήμα από κύκλο σε ένα μεγαλύτερο τατράγωνο. 
+Τώρα για το τρίτο ζητούμενο εγκατέστησα τη βιβλιοθήκη OpenCV for Processing, και ουσιαστικά άλλαξα κάποια πράγματα στο έτοιμο παράδειγμα BackgroundSubstraction. Δηλαδή στη void setup() αντί του "video = new Movie(this, "street.mov");" έβαλα το "video = new Capture(this, 720, 480, "pipeline:autovideosrc");" ["pipeline:autovideosrc" χρησιμοποιήθηκε για την αναγνώριση της κάμερας μου από το πρόγραμμα]. Επίσης τα " video.loop(); και video.play();" αντικαταστάθηκαν από το "video.start();"
+Τέλος για το τέταρτο ζητούμενο συμβουλευόμενη πάλι τοπαράδειγμα "Example 16-11 και το Example 9-8 (A snake following the mouse)" από το βιβλίο Learning Processing, 2nd Edition, και άνοιξα την άσκηση Exercise 16-5. Εκεί προσάρμωσα λιγο τον κώσικα στην κλάση snake καθώε επίσης και άλλαξα το χρώμα και το transparency της γραμμής μου.
 
 # 3rd Deliverable 
 
